@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="css/gallery.css">
+	<script src = "js/gallery.js"></script>
+</head>
+<!-- <header>
+	<h1 class="title">Iran photo gallery</h1>
+	<img class = "randomimg" alt = "Parl,tehran" src = "images/park.png">
+</header> -->
+<body onload="setimages()">
+	
+	<div id = "image">
+		Hover over an image below to display here.
+	</div>
+
+	
+	<img class = "preview" alt = "Anzali, Gilan" src = "images/anzali.png" onmouseover = "upDate(this)" onfocus="upDate(this)" onmouseout = "unDo()" onblur="unDo()">
+	
+	<img class = "preview" alt = "Fasham, Tehran" src = "images/fasham.png" onmouseover = "upDate(this)" onfocus="upDate(this)" onmouseout = "unDo()" onblur="unDo()">
+	
+	<img class = "preview" src = "images/kaicafe.png" alt = "Kai cafe, Tehran" onmouseover = "upDate(this)" onfocus="upDate(this)" onmouseout = "unDo()" onblur="unDo()" >
+
+	<img class = "preview" src = "images/simayeiran.png" alt = "Simaye iran st, Tehran" onmouseover = "upDate(this)" onfocus="upDate(this)" onmouseout = "unDo()" onblur="unDo()">
+
+	<img class = "preview" src = "images/snow.png" alt = "snow in Tehran" onmouseover = "upDate(this)" onfocus="upDate(this)" onmouseout = "unDo()" onblur="unDo()">
+
+	<img class = "preview" src = "images/velenjak.png" alt = "velenjak, Tehran" onmouseover = "upDate(this)" onfocus="upDate(this)" onmouseout = "unDo()" onblur="unDo()">
+
+</body>
+</html>
